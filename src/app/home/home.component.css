@@ -1,0 +1,84 @@
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: 400px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1;
+    opacity:1;
+}
+.carousel-caption h4  {
+position: relative;
+top:-250px;
+font-size: 3.3em;
+font-weight: bold;
+}
+ol.carousel-indicators li{
+  margin:0.5em;
+  postion:relative;
+}
+ol.carousel-indicators li.active{
+  background-color: #0ac8c4;
+}
+
+.subtitle{
+  color: #e2dfdf;
+   font-size: 1.1em;
+   line-height: 1.9em;
+   letter-spacing: 9px;
+   font-weight: 600;
+  text-align:center;
+
+}
+.carousel-caption h4{
+    color: #fff;
+    font-size: 3.6em;
+    margin: 0.3em 0 0.2em 0;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px rgb(12, 12, 12);
+
+}
+@media(min-width:1024px) and (max-width:1025px){
+  .carousel-caption h4  {
+  position: relative;
+  top:-150px;
+  font-size: 3em;
+  font-weight: bold;
+}
+.subtitle{
+  position: relative;
+  top:-130px;
+}
+}
+
+@media only screen and (min-width:1300px) {
+  .subtitle{
+    position: relative;
+    top:-130px;
+  }
+  .carousel-caption h4  {
+  top:-160px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  height:500px;
+}
+}
+@media (max-width:411px){
+  .carousel-caption h4  {
+  top:-50px;
+  font-size: 40px;
+}
+.subtitle{
+  font-size:1em;
+  top:-100px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  height:300px;
+}
+.ol.carousel-indicators{
+  position:relative;
+  top:-
+}
+}

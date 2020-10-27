@@ -1,0 +1,14 @@
+
+
+.agileits_banner_bottom_grid  {
+  min-height:120px;
+   transition: transform .2s;
+  }
+.agileits_banner_bottom_grid:hover{
+  background-color: #DDDADA;
+   transform: scale(1.2);
+
+}
+.agileits_banner_bottom_grid img{
+  align: middle;
+}

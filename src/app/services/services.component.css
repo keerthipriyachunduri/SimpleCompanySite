@@ -1,0 +1,40 @@
+.nav-link{
+  background-color: black;
+  color: white;
+}
+li.active  .nav-link{
+  background-color:#0ac8c4;
+}
+li:hover .nav-link {
+  background-color: black;
+}
+li:hover.active .nav-link {
+  background-color: #0ac8c4;
+}
+ul.nav li{
+  position: relative;
+  margin:10px;
+}
+ul.technologies{
+  list-style: none;
+  position: relative;
+  margin-top: 4px;
+}
+ul.technologies li{
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 10px;
+}
+div.training-details h6{
+  padding-top: 50px;
+}
+@media  (min-width:768px){
+  ul.nav{
+    position: relative;
+    margin-left: 200px ;
+  }
+  div#pills-consult ,div#pills-sd{
+    margin-bottom:-300px;
+  }
+}
